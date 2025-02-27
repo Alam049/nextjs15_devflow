@@ -56,7 +56,11 @@ export default {
   			'space-grotesk': [
   				'var(--font-space-grotesk)'
   			]
-  		}
+  		},
+		backgroundImage: {
+			"auth-dark": "url('/images/auth-dark.png')",
+			"auth-light": "url('/images/auth-light.png')"
+		}
   	}
   },
   plugins: [require("tailwindcss-animate"),require("@tailwindcss/typography")],
